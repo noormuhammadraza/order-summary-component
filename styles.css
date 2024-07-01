@@ -36,3 +36,16 @@ h6 {
   overflow-wrap: break-word;
 }
 /* CSS Reset <-- */
+
+:root {
+  --primary-clr-200: hsl(225, 100%, 94%);
+  --primary-clr-400: hsl(245, 75%, 52%);
+  --neutral-clr-100: hsl(225, 100%, 98%);
+  --neutral-clr-400: hsl(224, 23%, 55%);
+  --neutral-clr-900: hsl(223, 47%, 23%);
+
+  --ff: "Red Hat Display", sans-serif;
+  --fw-500: 500;
+  --fw-700: 700;
+  --fw-900: 900;
+}
