@@ -99,7 +99,7 @@ body {
   padding: 0.65em;
   /* border: 1px solid red; */
   align-items: center;
-  background-color: hsla(225, 100%, 94%, 0.1);
+  background-color: hsla(225, 100%, 94%, 0.35);
   justify-content: space-between;
 }
 
