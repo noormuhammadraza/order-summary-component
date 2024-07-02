@@ -83,7 +83,16 @@ body {
   color: var(--neutral-clr-400);
   font-size: 0.9rem;
   text-align: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 0 1em;
   font-weight: var(--fw-500);
+}
+
+.flex-container {
+  display: flex;
+  border: 1px solid black;
+}
+
+.subscription-plan {
+  border: 1px solid red;
 }
