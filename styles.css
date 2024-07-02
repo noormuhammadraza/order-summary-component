@@ -101,6 +101,7 @@ body {
   align-items: center;
   background-color: hsla(225, 100%, 94%, 0.35);
   justify-content: space-between;
+  border-radius: 10px;
 }
 
 .plan-details {
