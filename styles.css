@@ -57,6 +57,7 @@ body {
   background-repeat: no-repeat;
   display: grid;
   place-items: center;
+  height: 100vh;
 }
 
 .component {
