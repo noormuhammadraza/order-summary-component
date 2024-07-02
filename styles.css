@@ -94,6 +94,7 @@ body {
 }
 
 .subscription-plan {
+  display: flex;
   padding: 0.65em;
   border: 1px solid red;
   align-items: center;
