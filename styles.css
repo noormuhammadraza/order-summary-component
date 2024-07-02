@@ -110,12 +110,13 @@ body {
 
 .plan-name {
   font-size: 0.85rem;
-  font-weight: 900;
+  font-weight: var(--fw-900);
+  color: var(--neutral-clr-900);
 }
 
 .plan-price {
   font-size: 0.85rem;
-  font-weight: 500;
+  font-weight: var(--fw-500);
   color: var(--neutral-clr-400);
 }
 
