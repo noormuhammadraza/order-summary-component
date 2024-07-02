@@ -58,3 +58,10 @@ body {
   display: grid;
   place-items: center;
 }
+
+.component {
+  min-width: 300px;
+  max-width: 40%;
+  width: 95%;
+  background-color: var(--neutral-clr-100);
+}
