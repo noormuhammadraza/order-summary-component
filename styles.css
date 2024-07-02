@@ -49,3 +49,12 @@ h6 {
   --fw-700: 700;
   --fw-900: 900;
 }
+
+body {
+  background-color: var(--primary-clr-200);
+  font-family: var(--ff);
+  background-image: url("./images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+}
