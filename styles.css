@@ -67,3 +67,7 @@ body {
   border-radius: 20px;
   overflow: hidden;
 }
+
+.text-content-wrapper {
+  padding: 1.5em;
+}
