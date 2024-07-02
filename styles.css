@@ -71,3 +71,10 @@ body {
 .text-content-wrapper {
   padding: 1.5em;
 }
+
+.component-title {
+  font-size: 1.35rem;
+  font-weight: var(--fw-900);
+  text-align: center;
+  color: var(--neutral-clr-900);
+}
