@@ -91,7 +91,7 @@ body {
 
 .flex-container {
   display: flex;
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
   gap: 1em;
 }
 
@@ -103,6 +103,10 @@ body {
   justify-content: space-between;
   border-radius: 10px;
   margin-bottom: 1.5em;
+}
+
+.music-icon {
+  width: 44px;
 }
 
 .plan-details {
