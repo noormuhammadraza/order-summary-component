@@ -87,6 +87,7 @@ body {
   /* border: 1px solid black; */
   padding: 0 1em;
   font-weight: var(--fw-500);
+  margin-bottom: 1.5em;
 }
 
 .flex-container {
