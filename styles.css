@@ -139,3 +139,17 @@ body {
   border: none;
   border-radius: 8px;
 }
+
+.cancel-order {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--neutral-clr-400);
+  font-weight: var(--fw-900);
+  margin-top: 1.5em;
+}
+
+.cancel-order:hover {
+  cursor: pointer;
+  color: var(--neutral-clr-900);
+}
