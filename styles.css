@@ -140,6 +140,11 @@ body {
   border-radius: 8px;
 }
 
+.payment:hover {
+  cursor: pointer;
+  background-color: hsla(245, 75%, 52%, 0.6);
+}
+
 .cancel-order {
   border: 1px solid black;
   text-align: center;
