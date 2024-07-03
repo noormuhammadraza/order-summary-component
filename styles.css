@@ -84,7 +84,6 @@ body {
   color: var(--neutral-clr-400);
   font-size: 0.9rem;
   text-align: center;
-  /* border: 1px solid black; */
   padding: 0 1em;
   font-weight: var(--fw-500);
   margin-bottom: 1.5em;
@@ -92,14 +91,13 @@ body {
 
 .flex-container {
   display: flex;
-  border: 1px solid black;
+  outline: 1px solid black;
   gap: 1em;
 }
 
 .subscription-plan {
   display: flex;
   padding: 0.65em;
-  /* border: 1px solid red; */
   align-items: center;
   background-color: hsla(225, 100%, 94%, 0.35);
   justify-content: space-between;
@@ -108,7 +106,6 @@ body {
 }
 
 .plan-details {
-  border: 1px solid red;
   padding: 0.25em 0 0 0;
 }
 
@@ -138,7 +135,6 @@ body {
 }
 
 .payment {
-  /* outline: none; */
   width: 100%;
   padding: 0.85em 0;
   font-size: 0.9rem;
@@ -156,7 +152,6 @@ body {
 }
 
 .cancel-order {
-  border: 1px solid black;
   text-align: center;
   font-size: 0.85rem;
   color: var(--neutral-clr-400);
