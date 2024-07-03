@@ -131,6 +131,7 @@ body {
 .plan-change:hover {
   cursor: pointer;
   color: hsla(245, 75%, 52%, 0.6);
+  text-decoration: none;
 }
 
 .payment {
