@@ -66,18 +66,19 @@ body {
   background-color: var(--neutral-clr-100);
   border-radius: 20px;
   overflow: hidden;
+  box-shadow: 0px 18px 20px 0px hsla(245, 75%, 52%, 0.1);
 }
 
 .text-content-wrapper {
-  padding: 1.5em;
+  padding: 1.6em 1.5em;
 }
 
 .component-title {
-  font-size: 1.35rem;
+  font-size: 1.32rem;
   font-weight: var(--fw-900);
   text-align: center;
   color: var(--neutral-clr-900);
-  margin-bottom: 0.7em;
+  margin-bottom: 0.6em;
 }
 
 .component-description {
@@ -91,19 +92,18 @@ body {
 
 .flex-container {
   display: flex;
-  /* outline: 1px solid black; */
   gap: 1.15em;
+  font-weight: var(--fw-900);
 }
 
 .subscription-plan {
   display: flex;
   padding: 0.85em;
   align-items: center;
-  background-color: hsla(225, 100%, 94%, 0.4);
+  background-color: hsla(225, 100%, 94%, 0.2);
   justify-content: space-between;
   border-radius: 10px;
   margin-bottom: 1.5em;
-  outline: 1px solid black;
 }
 
 .music-icon {
@@ -127,8 +127,8 @@ body {
 }
 
 .plan-change {
-  font-size: 0.8rem;
-  font-weight: var(--fw-700);
+  font-size: 0.75rem;
+  font-weight: var(--fw-900);
   color: var(--primary-clr-400);
   text-decoration: underline;
 }
@@ -161,7 +161,7 @@ body {
   font-size: 0.85rem;
   color: var(--neutral-clr-400);
   font-weight: var(--fw-900);
-  margin-top: 1.5em;
+  margin-top: 1.75em;
 }
 
 .cancel-order:hover {
