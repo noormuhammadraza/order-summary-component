@@ -62,7 +62,7 @@ body {
 
 .component {
   min-width: 325px;
-  max-width: 25%;
+  max-width: 31%;
   background-color: var(--neutral-clr-100);
   border-radius: 20px;
   overflow: hidden;
@@ -171,11 +171,19 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .body {
+  body {
     background-image: url("./images/pattern-background-desktop.svg");
   }
 
   .text-content-wrapper {
     padding: 2.2em 2.3em;
+  }
+
+  .component-title {
+    font-size: 1.75rem;
+  }
+
+  .component-description {
+    font-size: 1.125rem;
   }
 }
