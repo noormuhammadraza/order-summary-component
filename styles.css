@@ -62,7 +62,7 @@ body {
 
 .component {
   min-width: 325px;
-  max-width: 31%;
+  max-width: 485px;
   background-color: var(--neutral-clr-100);
   border-radius: 20px;
   overflow: hidden;
@@ -100,7 +100,7 @@ body {
   display: flex;
   padding: 0.85em;
   align-items: center;
-  background-color: hsla(225, 100%, 94%, 0.2);
+  background-color: hsla(225, 100%, 94%, 0.25);
   justify-content: space-between;
   border-radius: 10px;
   margin-bottom: 1.5em;
@@ -175,15 +175,62 @@ body {
     background-image: url("./images/pattern-background-desktop.svg");
   }
 
+  .image-box img {
+    width: 100%;
+  }
+
   .text-content-wrapper {
-    padding: 2.2em 2.3em;
+    padding: 2.7em 3em;
   }
 
   .component-title {
-    font-size: 1.75rem;
+    font-size: 2rem;
+    margin-bottom: 0.4em;
   }
 
   .component-description {
     font-size: 1.125rem;
+    padding: 0 1.3em;
+  }
+
+  .flex-container {
+    align-items: center;
+    gap: 1.2em;
+  }
+
+  .subscription-plan {
+    padding: 1.6em 1.2em;
+  }
+
+  .music-icon {
+    width: 54px;
+    height: 54px;
+  }
+
+  .plan-details {
+    padding: 0;
+  }
+
+  .plan-name {
+    font-size: 1.2rem;
+    font-weight: var(--fw-900);
+    padding-bottom: 0.01em;
+  }
+
+  .plan-price {
+    font-size: 1.15rem;
+  }
+
+  .plan-change {
+    font-size: 1rem;
+  }
+
+  .payment {
+    font-size: 1.05rem;
+    padding: 0.9em 0;
+  }
+
+  .cancel-order {
+    font-size: 1.05rem;
   }
 }
